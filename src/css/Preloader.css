@@ -65,17 +65,15 @@
           margin-top: 45%;
       }
       .fimg{
-          margin-left: 17%;
+          margin-left: 5%;
+          height:350px;
+          width:auto;
       }
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 370px){
   .fimg{
-      margin-left: 12%;
+      margin-left:4%;
+      height:300px;
+      width:auto;
   }
 }
-
-
-  
-  
-  
-  
