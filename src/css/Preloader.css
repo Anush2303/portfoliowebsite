@@ -21,15 +21,18 @@
     }
 }
 .fimg{
-    height:120px;
+    height:250px;
     width:auto;
     position: absolute;
     text-align: center;
-    margin-left: 42%;
+    margin-left: 40%;
 }
 @media only screen and (max-width: 1024px){
     .glow{
       margin-top: 15%;
+    }
+    .fimg{
+      margin-left: 35%;
     }
   }
   @media only screen and (max-width: 768px){
@@ -45,7 +48,13 @@
         font-size: 40px;
     }
     .fimg{
-        margin-left: 30%;
+        margin-left: 27%;
+    }
+  }
+  @media only screen and (max-width:500px)
+  {
+    .fimg{
+      margin-left: 22%;
     }
   }
   @media only screen and (max-width: 400px){
@@ -56,8 +65,13 @@
           margin-top: 45%;
       }
       .fimg{
-          margin-left: 27%;
+          margin-left: 17%;
       }
+}
+@media only screen and (max-width: 320px){
+  .fimg{
+      margin-left: 12%;
+  }
 }
 
 
