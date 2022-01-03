@@ -22,7 +22,7 @@
     line-height: 4;
     color: rgb(255, 255, 255);
     font-weight:bold; 
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .contact-text {
     font: 300 18px 'Lato', sans-serif;
@@ -31,13 +31,13 @@
     font-weight:bold;
   }
   .place {
-    margin-left: 68px;
+    margin-left: 59px;
   }
   .phone {
-    margin-left: 62px;
+    margin-left: 53px;
   }
   .gmail {
-    margin-left: 59px;
+    margin-left: 50px;
   }
   .contact-text a {
     color: #bbb;
