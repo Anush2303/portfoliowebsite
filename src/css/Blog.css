@@ -55,6 +55,16 @@
         padding-top: 90px;
     }
   }
+ @media only screen and (max-width: 577px){
+    .linkbtn{
+        font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 457px){
+      .linkbtn{
+          font-size:30px;
+      }
+  }
   .desc{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
