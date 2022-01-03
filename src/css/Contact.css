@@ -1,0 +1,145 @@
+.cont{
+    background-image:url("https://www.soroptimistinternational.org/wp-content/uploads/2020/01/technology-background-digital-hand.jpg");
+    background-size: cover;
+    width:100%;
+    height:100vh; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 auto;
+    position: relative;
+    max-width: 840px;
+  }
+  .contact-list {
+    list-style-type: none;
+    padding-right: 20px;
+  }
+  .list-item {
+    line-height: 4;
+    color: rgb(255, 255, 255);
+    font-weight:bold; 
+    margin-left: 20px;
+  }
+  .contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: rgba(255, 255, 255, 0.712);
+    font-weight:bold;
+  }
+  .place {
+    margin-left: 62px;
+  }
+  .phone {
+    margin-left: 56px;
+  }
+  .gmail {
+    margin-left: 53px;
+  }
+  .contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    font-weight: bold;
+
+  }
+  .contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Social Media Icons */
+  .social-media-list_ {
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-media-list_ li a {
+    color: #fff;
+  }
+  .social-media-list_ li {
+    position: relative; 
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  .social-media-list_ li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  .social-media-list_ li:hover {
+    background-color: #fff; 
+    color:#000;
+  }
+  .social-media-list_ li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  .social-media-list_ li:hover a {
+    color: #000;
+  }
+.khead__{
+  font-size: 60px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left:10px;
+}
+@media only screen and (max-width: 992px){
+  .contimg{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px){
+ .khead__{
+   font-size: 45px;
+ }
+
+}
+@media only screen and (max-width: 690px){
+.khead__{
+  font-size: 40px;
+}
+}
+@media only screen and (max-width: 577px){
+.khead__{
+  font-size: 30px;
+}
+}
+@media only screen and (max-width: 400px){
+  .khead__{
+    font-size: 30px;
+  }
+}
+.form{
+  color:white;
+  font-family: cursive;
+  text-align: center;
+  padding:10px;
+}
+.smile{
+  color:yellow;
+}
