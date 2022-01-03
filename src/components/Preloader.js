@@ -13,7 +13,7 @@ const Preloader = () => {
         <div>
         <div>
            <button onClick={handlechange}>
-           <img src="https://gameofcodes.herokuapp.com/annual-report/images/undraw_Astronaut_re_8c33.svg" alt="img" className='fimg'/> 
+           <img src="https://cloudxcel.nl/giphy.gif" alt="img" className='fimg'/> 
            </button>
         </div>
         <div className='glow'>
@@ -27,7 +27,7 @@ const Preloader = () => {
             <div>
             <div>
            <button onClick={handlechange}>
-           <img src="https://gameofcodes.herokuapp.com/annual-report/images/undraw_Astronaut_re_8c33.svg" alt="img" className='fimg'/> 
+           <img src="https://cloudxcel.nl/giphy.gif" alt="img" className='fimg'/> 
            </button>
            </div>
             <div className='glow'>
