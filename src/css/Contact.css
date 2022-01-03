@@ -31,13 +31,13 @@
     font-weight:bold;
   }
   .place {
-    margin-left: 62px;
+    margin-left: 68px;
   }
   .phone {
-    margin-left: 56px;
+    margin-left: 62px;
   }
   .gmail {
-    margin-left: 53px;
+    margin-left: 59px;
   }
   .contact-text a {
     color: #bbb;
@@ -106,7 +106,6 @@
   font-size: 60px;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left:10px;
 }
 @media only screen and (max-width: 992px){
   .contimg{
