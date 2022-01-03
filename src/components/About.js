@@ -33,7 +33,7 @@ const About=()=>{
                   <h3>I am a MERN stack Web developer!</h3>
                   <h3>In short, I am a coding enthusiast!</h3>
                   <h3>always eager to explore and learn something new :)</h3>
-                  <h6><i>That's all I could think of about myself:/</i></h6>
+                  <h6><i>That's all I could think of about myself:/)</i></h6>
             </div>
            </div>
           </div>
