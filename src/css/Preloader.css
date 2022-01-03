@@ -9,7 +9,7 @@
     animation: glow 1s ease-in-out infinite alternate;
     position: relative;
     font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #d4d5ff;
     }
     @keyframes glow {
@@ -21,23 +21,11 @@
     }
 }
 .fimg{
-    height:100px;
+    height:120px;
     width:auto;
     position: absolute;
     text-align: center;
     margin-left: 42%;
-    animation: ver-rotate 5s infinite linear;
-}
-@keyframes ver-rotate
-{
-from
-{
-transform: rotateY(0deg);
-}
-to
-{
-transform: rotateY(360deg);
-}
 }
 @media only screen and (max-width: 1024px){
     .glow{
