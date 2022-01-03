@@ -5,7 +5,7 @@ const Preloader = () => {
     function handlechange(){
         setFlag(true);
     }
-    const [flag,setFlag]=useState(false);
+    const [flag,setFlag]=useState(true);
     const ans=flag;
     if(ans===true)
     {
