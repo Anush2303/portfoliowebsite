@@ -5,7 +5,7 @@ function Contact(){
     return (
       <div className="cont">
         <div className="rowimg" style={{paddingBottom:'7px'}}>
-           <p className='titleanimate_ animate__animated animate__zoomIn khead__'><i class="page fas fa-stopwatch"></i>GET IN TOUCH!</p>
+           <p className='titleanimate_ animate__animated animate__zoomIn khead__'><i class="page fas fa-user-friends"></i>GET IN TOUCH!</p>
            <a href="/link"><i class="linkbtn_ linkbtn fas fa-code-branch fa-4x"></i></a>
          </div>
         <div className="row">
