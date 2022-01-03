@@ -106,15 +106,14 @@
     font-size: 30px;
   }
   .linkbtn_{
-      font-size: 30px;
+      font-size: 35px;
   }
 }
 @media only screen and (max-width: 457px){
     .khead_{
-      font-size: 25px;
+      font-size: 22px;
     }
     .linkbtn_{
-        font-size:25px;
+        font-size:27px;
     }
 }
-
