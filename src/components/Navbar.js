@@ -6,7 +6,7 @@ function Navbar(){
     return(
         <Nav fill className="justify-content-center navbar" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/" className="mob nav-links button2">
+          <Nav.Link href="/" className="hid nav-links button2">
           <span></span>
           <span></span>
           <span></span>
