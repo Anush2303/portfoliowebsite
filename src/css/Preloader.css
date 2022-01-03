@@ -9,12 +9,12 @@
     animation: glow 1s ease-in-out infinite alternate;
     position: relative;
     font-size: 50px;
-    font-family:cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #d4d5ff;
     }
     @keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d80f0f, 0 0 40px #d80f0f, 0 0 50px #d80f0f, 0 0 60px #d80f0f, 0 0 70px #d80f0f;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d1c7ff, 0 0 40px #d1c7ff, 0 0 50px #d1c7ff, 0 0 60px #d1c7ff, 0 0 70px #d1c7ff;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #070706, 0 0 40px #070706, 0 0 50px #070706, 0 0 60px #070706, 0 0 70px #070706, 0 0 80px #070706;
