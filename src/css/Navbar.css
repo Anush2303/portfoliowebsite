@@ -119,13 +119,13 @@
    }
    .mob{
      display: flex;
-     margin-left:39%;
+     margin-left:49%;
    }
  }
  @media only screen and (max-width: 332px){
   .mob{
     display: flex;
-    margin-left:33%;
+    margin-left:40%;
   }
 }
 
