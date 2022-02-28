@@ -13,7 +13,7 @@ const Preloader = () => {
         <div>
         <div>
            <button onClick={handlechange}>
-           <img src="https://vani.nic.in/meghBot/images/vani-gif.gif" alt="img" className='fimg'/> 
+           <img src="https://cloudxcel.nl/giphy.gif" alt="img" className='fimg'/> 
            </button>
         </div>
         <div className='glow'>
