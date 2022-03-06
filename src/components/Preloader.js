@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../css/Preloader.css';
-import self from '../images/cartoon.jpg';
+import self from '../images/self.jpeg';
 
 const Preloader = () => {
     function handlechange(){
