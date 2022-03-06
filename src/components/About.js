@@ -53,6 +53,9 @@ const About=()=>{
               <i class="fab fa-instagram fa-5x" aria-hidden="true"></i></li>
             </a>       
           </ul>
+         <form target="_blank" action="https://pdfhost.io/v/zPb1Gn31V_ANUSHGUPTA_CV_1" style={{textAlign:"center"}}>
+              <button target="_blank" className="glow-on-hover block" style={{color:'white',marginTop:'45px',textAlign:"center"}}>CHECKOUT RESUME!</button>
+            </form>
         </div>
         </div>
        </div>
