@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../css/Preloader.css';
+import self from '../images/cartoon.jpg';
 
 const Preloader = () => {
     function handlechange(){
@@ -13,7 +14,7 @@ const Preloader = () => {
         <div>
         <div>
            <button onClick={handlechange}>
-           <img src="https://cloudxcel.nl/giphy.gif" alt="img" className='fimg'/> 
+           <img src={self} alt="img" className='fimg'/> 
            </button>
         </div>
         <div className='glow'>
