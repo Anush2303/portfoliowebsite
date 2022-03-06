@@ -6,7 +6,7 @@
     position: fixed;
   }
   .nav-links {
-    color:aliceblue;
+    color:white;
     font-weight: 900;
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +20,7 @@
     position: relative;
     display: inline-block;
     border-radius: 4px;
-    color: #d4d5ff;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
