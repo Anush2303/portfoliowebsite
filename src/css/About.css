@@ -5,7 +5,7 @@
     overflow-y: scroll;
     overflow-x: hidden;
 }
-.text{
+.card-body p{
     font-size:29px;
 }
 .card{
