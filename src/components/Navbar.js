@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Navbar(){
     return(
-        <Nav fill className="justify-content-center navbar" activeKey="/home">
+        <Nav fill className="justify-content-center navbar menu" activeKey="/home">
         <Nav.Item>
             <span style={{color:"white",fontSize:"30px",fontFamily:"serif",fontWeight:"bold"}}>ANUSH</span> <span style={{color:"yellow",fontSize:"30px",fontWeight:"bold"}}> GUPTA </span>
         </Nav.Item>         
