@@ -6,8 +6,11 @@
     overflow-x: hidden;
 }
 .text{
-    text-align: center;
-    margin-top: 6%;
+    font-size:29px;
+}
+.card{
+  padding: 10px;
+  border-radius: 10%;
 }
 .linkbtn{
     color:#fff;
