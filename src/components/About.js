@@ -10,8 +10,8 @@ const About=()=>{
         color:`${fcolor}`
     }   
   function handlechange(){
-    setBgColour("black")
-    setfcolor("yellow")
+    setBgColour("white")
+    setfcolor("darkblue")
   }
   function change(){
     setBgColour("linear-gradient(to bottom right, #000066 36%, #000000 100%)")
@@ -26,14 +26,14 @@ const About=()=>{
            <div class="text col col-12 col-lg-6">
             <div class="card animate__animated animate__zoomIn" onMouseEnter={handlechange} onMouseLeave={change} style={styles}>
               <div class="card-body">
-                <h3 className="card-title">HEY CODERS!</h3>
-                <h3 class="card-title line-1 anim-typewriter">I'M ANUSH</h3>
+                <p className="card-title">HEY CODERS!</p>
+                <p>I'M ANUSH GUPTA</p>
                 <div class="card-text">
-                  <h3>I am well versed in data structures and algorithm in C++!</h3>
-                  <h3>I am a MERN stack Web developer!</h3>
-                  <h3>In short, I am a coding enthusiast!</h3>
-                  <h3>always eager to explore and learn something new :)</h3>
-                  <h6><i>That's all I could think of about myself:/)</i></h6>
+                  <p>A COE Major Undergrad</p>
+                  <p>I am well versed in data structures and algorithm in C++!</p>
+                  <p>I am a MERN stack Web developer!</p>
+                  <p>In short, I am a coding enthusiast!</p>
+                  <p>always eager to explore and learn something new :)</p>
             </div>
            </div>
           </div>
