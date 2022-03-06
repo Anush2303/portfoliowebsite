@@ -6,13 +6,7 @@ function Navbar(){
     return(
         <Nav fill className="justify-content-center navbar" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/" className="hid nav-links button2">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-            ANUSH GUPTA{<i class="fas fa-code"></i>}
-          </Nav.Link>
+            <span style={{color:"white",fontSize:"30px",fontFamily:"serif",fontWeight:"bold"}}>ANUSH</span> <span style={{color:"yellow",fontSize:"30px",fontWeight:"bold"}}> GUPTA </span>
         </Nav.Item>         
         <Nav.Item>
           <Nav.Link href="/" className="hid nav-links button2">
