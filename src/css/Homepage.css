@@ -8,163 +8,46 @@
   left:0;
   width:100%;
   height:120%;
-  background-image: linear-gradient(to right bottom ,rgba(0,0,0,.3),rgba(0,0,0,.7)),url("https://wi.wallpapertip.com/wsimgs/136-1369543_laptop-coding.jpg");
+  background-image: linear-gradient(to right bottom ,rgba(0,0,0,.3),rgba(0,0,0,.7)),url("http://pa1.narvii.com/7260/f8e0b2af3066843ac48a19431f06b6d5f4ed3015r1-760-428_00.gif");
   background-position: top;
   background-size: cover;
   animation:fade1 10s infinite;
 }
-.head-2{
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:120%;
-  background-image: linear-gradient(to right bottom ,rgba(0,0,0,.3),rgba(0,0,0,.7)),url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-position: top;
-  background-size: cover;
-  animation:fade2 10s infinite;
+.sub{
+  margin-left:5%;
+  color:yellow;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 40px;
 }
-.head-3{
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:120%;
-  background-image: linear-gradient(to right bottom ,rgba(0,0,0,.3),rgba(0,0,0,.7)),url("https://c1.wallpaperflare.com/preview/348/29/220/code-coding-computer-developer.jpg");
-  background-position: top;
-  background-size: cover;
-  animation:fade3 10s infinite;
+.banner{
+  margin-left:5%;
+  color:white;
+  font-weight: bold;
+  font-size: 80px;
 }
-.head-4{
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:120%;
-  background-image: linear-gradient(to right bottom ,rgba(0,0,0,.3),rgba(0,0,0,.7)),url("https://wallpaperaccess.com/full/279547.jpg");
-  background-position: top;
-  background-size: cover;
-  animation:fade4 10s infinite;
+.banner_{
+  margin-left:5%;
+  color:white;
+  font-weight: bold;
+  font-size: 55px;
 }
-@-webkit-keyframes fade1 {
-  0% {
-    opacity: 1; }
-  25% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-@keyframes fade1 {
-  0% {
-    opacity: 1; }
-  25% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-@-webkit-keyframes fade2 {
-  0% {
-    opacity: 0; }
-  25% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@keyframes fade2 {
-  0% {
-    opacity: 0; }
-  25% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@-webkit-keyframes fade3 {
-  0% {
-    opacity: 0; }
-  25% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
-@keyframes fade3 {
-  0% {
-    opacity: 0; }
-  25% {
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-    @-webkit-keyframes fade4 {
-      0% {
-        opacity: 0; }
-      25% {
-        opacity: 0; }
-      50% {
-        opacity: 0; }
-      75% {
-        opacity: 1; }
-      100% {
-        opacity: 1; } }
-    
-    @keyframes fade4 {
-      0% {
-        opacity: 0; }
-      25% {
-        opacity: 0; }
-      50% {
-        opacity: 0; }
-      75% {
-        opacity: 1; }
-      100% {
-        opacity: 1; } }
-  .head{
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position:relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    text-align: center;
-   /* margin-top:25%;*/
-  }
-  .box{
-    margin-top: 10%;
-  }
-  /* ring animated button */
-  .wrap {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:20px;
-  }
+.imgggg{
+  height:80%;
+  width:80%;
+  border: 5px solid yellow;
+  border-radius: 100%;
+  margin-top:10%;
+}
+.boxc{
+  display: flex;
+  flex-direction: row;
+}
   .glow-on-hover {
-    width: 220px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
     height: 50px;
     border: none;
     outline: none;
@@ -174,97 +57,109 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
-}
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
 }
-.glow-on-hover:active {
-    color: #000
+.block {
+  margin: 40px;
+  border-radius: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 168, 25, 1) 0%,
+    rgba(255, 147, 25, 1) 10%,
+    rgba(255, 128, 25, 1) 15%,
+    rgba(255, 80, 25, 1) 20%,
+    rgba(255, 45, 80, 1) 25%,
+    rgba(255, 32, 107, 1) 30%,
+    rgba(255, 18, 138, 1) 35%,
+    rgba(255, 0, 178, 1) 40%,
+    rgba(255, 0, 178, 1) 45%,
+    rgba(255, 0, 178, 1) 50%,
+    rgba(255, 0, 178, 1) 55%,
+    rgba(255, 0, 178, 1) 60%,
+    rgba(255, 0, 178, 1) 65%,
+    rgba(255, 18, 138, 1) 70%,
+    rgba(255, 32, 107, 1) 75%,
+    rgba(255, 45, 80, 1) 80%,
+    rgba(255, 80, 25, 1) 85%,
+    rgba(255, 128, 25, 1) 90%,
+    rgba(255, 147, 25, 1) 95%,
+    rgba(255, 168, 25, 1) 100%
+  );
+  background-size: 400%;
+  animation-name: steam;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  margin-bottom: 50px;
 }
-.glow-on-hover:active:after {
-    background: transparent;
-}
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+@keyframes steam {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
 @media only screen and (max-width: 1200px){
-  .box{
-    margin-top: 22%;
-  }
-  .head1{
-    height:140%;
-  }
-  .head2{
-    height:140%;
-  }
-  .head3{
-    height:140%;
-  }
-  .head4{
-    height:140%;
+   .boxc{
+     display: flex;
+     flex-direction: column-reverse;
+   }
+   .imgggg{
+     align-items: center;
+     margin-left:28%;
+     height:40%;
+     width:40%;
+   }
+}
+@media only screen and (max-width: 800px){
+  .imgggg{
+    align-items: center;
+    margin-left:35%;
+    height:200%;
+    width:200%;
   }
 }
 @media only screen and (max-width: 768px){
-  .box{
-    margin-top: 33%;
+   .banner{
+     font-size: 65px;
+   }
+   .banner_{
+    font-size: 35px;
   }
-  .head{
-    width:90%;
-  }
-  .head1{
-    height:160%;
-  }
-  .head2{
-    height:160%;
-  }
-  .head3{
-    height:160%;
-  }
-  .head4{
-    height:160%;
+  .imgggg{
+    align-items: center;
+    margin-left:35%;
+    height:200%;
+    width:200%;
   }
 }
-@media only screen and (max-width: 600px){
-  .box{
-    margin-top: 30%;
+@media only screen and (max-width: 480px){
+   .sub{
+     font-size: 30px;
+   }
+   .banner{
+     font-size: 50px;
+   }
+   .banner_{
+    font-size: 35px;
   }
-}
-@media only screen and (max-width: 456px){
-  .box{
-    margin-top: 40%;
+  .imgggg{
+    align-items: center;
+    margin-left:35%;
+    height:200%;
+    width:200%;
   }
 }
 @media only screen and (max-width: 320px){
-  .box{
-    margin-top: 50%;
+   .sub{
+     font-size: 25px;
+   }
+   .banner{
+     font-size: 35px;
+   }
+   .banner_{
+    font-size: 35px;
   }
 }
