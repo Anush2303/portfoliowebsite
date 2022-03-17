@@ -58,7 +58,7 @@ function Project(){
           </a>
           </div>
           <div className="back">
-              <h3>BLOG-APP</h3>
+              <h3>LIVE JOURNAL</h3>
               <i class="fab fa-blogger-b fa-4x" style={{color:"white"}}></i>
             </div>
             </div>
