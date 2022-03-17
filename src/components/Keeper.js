@@ -41,7 +41,7 @@ function change(){
                 <h5>DELETE SPECIFIC NOTES WHEN NOT OF USE.<i class="far fa-comments icons" style={styles}></i></h5>
                 <h3 class="" style={styles}>TECH USED</h3>
                 <h5>REACTJS</h5>
-                <h3 class="" style={styles}>PROJECT LINK  <a class="btn-outline-light btn-floating" href="https://github.com/Anush2303/BLOG_APP" role="button" style={{borderRadius:'100%'}}><i
+                <h3 class="" style={styles}>PROJECT LINK  <a class="btn-outline-light btn-floating" href="https://github.com/Anush2303/Clone_google_keeper" role="button" style={{borderRadius:'100%'}}><i
                 class="fab fa-github fa-2x"></i></a></h3>
             </div>
         </div>
