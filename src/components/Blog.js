@@ -51,7 +51,7 @@ function Blog(){
                 <h5>COMPOSE AND POST PERSONAL BLOGS<i class="fas fa-user-plus icons" style={styles}></i></h5>
                 <h5>VIEW OTHER INTERESTING BLOGS <i class="far fa-comments icons" style={styles}></i></h5>
                 <h3 class="" style={styles}>TECH USED</h3>
-                <h5>HTML | CSS | NODE | MONGODB | BOOTSTRAP</h5>
+                <h5>HTML | CSS | VANILLA JS | EJS | NODEJS | MONGODB | API</h5>
                 <h3 class="" style={styles}>PROJECT LINK  <a class="btn-outline-light btn-floating" href="https://github.com/Anush2303/live_journal" role="button" style={{borderRadius:'100%'}}><i
                 class="fab fa-github fa-2x"></i></a></h3>
             </div>
