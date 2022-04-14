@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/Competitive.css'
-import C1 from '../images/C1.jpg'
+import codechef from '../images/codechef.jpg'
 import C2 from '../images/C2.jpg'
 import C3 from '../images/C3.jpg'
 import H1 from '../images/H1.jpg'
@@ -21,7 +21,7 @@ function Competitive(){
            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="img" />
           </div>
          <div className="_row1 animate__animated animate__zoomIn">
-             <img id="cc" src={C1} alt="img"/>
+             <img id="cc" src={codechef} alt="img"/>
              <img id="cf" src={C2} alt="img"/>
              <img id="leet" src={C3} alt="img"/>
          </div>
