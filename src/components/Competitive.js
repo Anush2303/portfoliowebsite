@@ -2,7 +2,7 @@ import React from "react";
 import '../css/Competitive.css'
 import codechef from '../images/codechef.jpg'
 import C2 from '../images/C2.jpg'
-import C3 from '../images/C3.jpg'
+import C3 from '../images/leetcode.jpg'
 import H1 from '../images/H1.jpg'
 import H2 from '../images/H2.jpeg'
 import H3 from '../images/H3.jpg'
